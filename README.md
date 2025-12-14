@@ -171,7 +171,7 @@ webui:
 ```
 Docker Compose treats $ as the start of an environment variable.
 Since bcrypt hashes can contain $ characters, Compose will try to substitute them and may emit warnings or truncate the value.
-To pass a literal $, you must escape it as $$
+To pass a literal ''$'', you must escape it as ''$$''
 
 
 ### Running
